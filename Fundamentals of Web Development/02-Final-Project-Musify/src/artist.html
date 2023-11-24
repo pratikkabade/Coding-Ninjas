@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Musify</title>
+  <link rel="icon" href="./assets/logo.png" type="image/x-icon" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- CDNs -->
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <script src="https://kit.fontawesome.com/c5266611a7.js" crossorigin="anonymous"></script>
+
+  <!-- LOCAL FILES -->
+  <link rel="stylesheet" href="./styles.css" />
+
+  <!-- NAVBAR -->
+  <header>
+    <nav>
+      <a href="./index.html" id="nav-logo">
+        <img src="./assets/logo.png" alt="Logo" />
+        <span>Musify</span>
+      </a>
+
+      <div id="nav-side">
+        <div>
+          <input type="text" id="search-bar" placeholder="Search songs, albums, artists">
+        </div>
+        <a href="#" id="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+        <a href="#">
+          <img
+            src="https://static.standard.co.uk/2023/08/10/18/79e5045b0a2dee6842c543eb491137edY29udGVudHNlYXJjaGFwaSwxNjkxNzcyMjEw-2.68513031.jpg?width=1200&height=1200&fit=crop"
+            alt="Profile" id="profile-pic" />
+        </a>
+      </div>
+    </nav>
+  </header>
+
+</head>
+
+<body>
+
+  <main>
+
+    <!-- ARTISTS PAGE -->
+    <section>
+      <div id="page-artist">
+        <img src="./assets/taylor swift.jpg" alt="artist" id="page-artist-back-img" />
+        <h1 style="color:white">Taylor Swift</h1>
+        <div id="content-container">
+          <a href="./artist.html">
+            <img src="./assets/taylorswift.jpg" id="artist-logo" alt="Artist" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ALBUMS -->
+    <section>
+      <h1 style="color:white">Albums</h1>
+      <div id="content-container">
+        <a href="./album.html">
+          <img src="./assets/1989.jpg" alt="Album" />
+        </a>
+        <a href="./album.html">
+          <img src="./assets/Fearless TV.jpg" alt="Album" />
+        </a>
+        <a href="./album.html">
+          <img src="./assets/Lover.jpg" alt="Album" />
+        </a>
+        <a href="./album.html">
+          <img src="./assets/Midnights.jpg" alt="Album" />
+        </a>
+        <a href="./album.html">
+          <img src="./assets/Red TV.jpg" alt="Album" />
+        </a>
+        <a href="./album.html">
+          <img src="./assets/Reputation.jpg" alt="Album" />
+        </a>
+        <a href="./album.html">
+          <img src="./assets/Speak Now TV.jpg" alt="Album" />
+        </a>
+      </div>
+    </section>
+
+    <!-- QUEUE -->
+    <aside>
+      <section id="queue">
+        <h1>Now Playing</h1>
+        <div id="queue-list">
+          <div class="queue-song"></div>
+          <div class="queue-song"></div>
+          <div class="queue-song"></div>
+          <div class="queue-song"></div>
+          <div class="queue-song"></div>
+          <div class="queue-song"></div>
+          <div class="queue-song"></div>
+          <div class="queue-song"></div>
+          <div class="queue-song"></div>
+          <div class="queue-song"></div>
+        </div>
+      </section>
+    </aside>
+
+  </main>
+
+
+
+
+  <!-- MUSIC PLAYER FOOTER -->
+  <section id="music-player">
+    <div id="music-player-head">
+      <img src="./assets/Red TV.jpg" id="music-player-image" alt="Album" />
+      <div id="music-player-head-details">
+        <span id="song-name">Red</span>
+        <span id="artist-name">Taylor Swift</span>
+      </div>
+    </div>
+
+    <!-- slider -->
+    <div id="music-player-slider">
+      <input type="range" id="slider" min="0" max="100" value="0" />
+    </div>
+
+    <div id="music-buttons-section">
+      <a href="#" id="music-buttons">
+        <i class="fas fa-step-backward"></i>
+      </a>
+      <a href="#" id="music-buttons">
+        <i class="fas fa-play"></i>
+      </a>
+      <a href="#" id="music-buttons">
+        <i class="fas fa-step-forward"></i>
+      </a>
+    </div>
+  </section>
+
+</body>
+
+<!-- link script -->
+<script src="./assets/songs.js"></script>
+
+</html>
