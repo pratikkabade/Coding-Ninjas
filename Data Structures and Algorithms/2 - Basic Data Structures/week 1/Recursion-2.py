@@ -1,50 +1,70 @@
-print("👇")
-############################## - ##############################
-# # remove x
-
-# a="axsdxdsa"
-
-# def removeX(s):
-#     if len(s)==0:
-#         return s
-#     if s[0]=='x':
-#         return removeX(s[1:])
-#     return s[0]+removeX(s[1:])
-
-# print(removeX(a))
+def binSrc(a,l,h,t):
+  if l<0 or len(a)<h or t not in a:
+    return -1
+  mid=(l+h)//2
+  if a[mid]==t:
+    return mid
+  if a[mid]<t:
+    return binSrc(a,mid,h,t)
+  else:
+    return binSrc(a,l,mid,t)
+arr=[1,2,3,4,5]
+print(binSrc(arr,0,len(arr),5))
 
 
-############################## - ##############################
-# # remove duplicates
+def mergSrt(a):
+  if len(a)<2:
+    return a
+  
+  m=len(a)//2
+  L=a[:m]
+  R=a[m:]
 
-# a='aaaabbcd'
+  mergSrt(L)
+  mergSrt(R)
 
-# def removeD(s):
-#     if len(s)==1 or len(s)==0:
-#         return s
-#     if s[0]==s[1]:
-#         return removeD(s[1:])
-#     return s[0]+removeD(s[1:])
+  i=j=k=0
 
-# print(removeD(a))
-
-
-############################## - ##############################
-# # binary search recurively
-
-def binSearch(a,l,h,t):
-    mid=(l+h)//2
-    if l>h:
-        return -1
-    if a[mid]==t:
-        return mid
-    if a[mid]>t:
-        return binSearch(a,l,mid,t)
-    if a[mid]<t:
-        return binSearch(a,mid,h,t)
+  while i<len(L) and j<len(R):
+    if L[i]<R[j]:
+      a[k]=L[i]
+      i+=1
     else:
-        return -1
+      a[k]=R[j]
+      j+=1
+    k+=1
 
-#a =[0,1,2,3,4,5]
-arr=[1,2,3,4,5,6]
-print(binSearch(arr,0,len(arr),5))
+  while i<len(L):
+    a[k]=L[i]
+    i+=1
+    k+=1
+    
+  while j<len(R):
+    a[k]=R[j]
+    j+=1
+    k+=1
+
+  return a
+    
+arr=[4,2,3,1,0]
+print(mergSrt(arr))
+
+
+def qS(a,l,h):
+  pass
+
+arr=[2,4,6,1,8,5]
+print(qS(arr,0,len(arr)))
+
+
+arr=[2,4,5,3,3]
+
+def mul(a,i):
+  if i==len(a):
+    return 1
+  if a[i]%2!=0:
+    return mul(a,i+1)*a[i]
+  else:
+    return mul(a,i+1)
+
+print(mul(arr,0))
