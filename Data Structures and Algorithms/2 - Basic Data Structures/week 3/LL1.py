@@ -214,7 +214,7 @@ print(a)
 # b.append(7)
 # print(b)
 # print(merge(a,b))
-print(a.reverse().data)
+# print(a.reverse().data)
 
 
 print(a)
