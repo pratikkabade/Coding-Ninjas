@@ -58,10 +58,13 @@ The archive of notes, project from Coding Ninjas courses.
 
 - **Week 2** : 
     - `Binary Trees 1` *Mar 18, 2024*
-    - `Binary Trees 2` *Mar 23, 2024*
+    - `Binary Trees 2` *Apr 14, 2024*
 
 - **Week 3** : 
     - `Binary Search Trees 1` *Mar 23, 2024*
     - `Binary Search Trees 2` *Mar 23, 2024*
 
 - **Week 4** : 
+    - `Generic Trees` *Apr 03, 2024*
+    - **Test 3** Feb 02, 2024
+    - `Dictionaries - Map` *Apr 08, 2024*
