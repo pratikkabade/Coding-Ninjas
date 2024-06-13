@@ -69,6 +69,30 @@ The archive of notes, project from Coding Ninjas courses.
     - **Test 3** Feb 02, 2024
     - `Dictionaries - Map` *Apr 08, 2024*
 
-### Python
+### Data Structures and Algorithms with Python
 
 - **Week 21** : 
+    - `Heaps-I` *Apr 20, 2024*
+    - `Heaps-II`  *Apr 23, 2024*
+    - `Huffman Coding`  *Apr 27, 2024*
+
+- **Week 22** : 
+    - `Dynamic Programming I` *Apr 27, 2024*
+    - `Dynamic Programming II`  *Apr 27, 2024*
+
+- **Week 22** : 
+    - `Recursion 3` *Apr 27, 2024*
+    - `BackTracing`  *Apr 28, 2024*
+
+- **Week 22** : 
+    - `Graphs-I` *Apr 28, 2024*
+    - `Graphs-II`  *Apr 28, 2024*
+    - `Graphs-II`  *Apr 28, 2024*
+
+#### Skill Test
+
+- **Week 26** : 
+    - **1**: *May 30, 2024*
+    - **2**: *May 30, 2024*
+    - **3**: *May 30, 2024*
+    - **4**: *Jun 01, 2024* `x3`
