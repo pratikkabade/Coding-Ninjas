@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List and Add-to-Cart with Redux</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>To-Do List</h2>
+        <input type="text" id="todoInput" placeholder="Add a new task...">
+        <button id="addTodoButton">Add Task</button>
+        <div id="todoList"></div>
+    </div>
+
+    <div class="container">
+        <h2>Add-to-Cart Functionality</h2>
+        <div id="items">
+            <div class="cart-item">
+                <span>Item 1 ($10)</span>
+                <button onclick="addToCart('Item 1', 10)">Add to Cart</button>
+            </div>
+            <div class="cart-item">
+                <span>Item 2 ($15)</span>
+                <button onclick="addToCart('Item 2', 15)">Add to Cart</button>
+            </div>
+            <div class="cart-item">
+                <span>Item 3 ($20)</span>
+                <button onclick="addToCart('Item 3', 20)">Add to Cart</button>
+            </div>
+        </div>
+        <div id="cart">
+            <h3>Cart</h3>
+            <div id="cartItems"></div>
+            <div id="cartTotal">Total: $0</div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

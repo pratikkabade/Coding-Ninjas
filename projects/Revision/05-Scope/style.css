@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    margin-bottom: 20px;
+}
+#todoList {
+    margin-top: 10px;
+}
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+#cartTotal {
+    margin-top: 10px;
+    font-weight: bold;
+}
