@@ -12,7 +12,7 @@ document.getElementById('scopeButton').addEventListener('click', () => {
 });
 
 // IIFE Example
-(function() {
+(function () {
     var iifeVar = 'I am an IIFE variable';
     document.getElementById('iifeOutput').innerText = iifeVar;
 })();
@@ -42,11 +42,21 @@ document.getElementById('reduceButton').addEventListener('click', () => {
 // Use of 'this'
 const person = {
     name: 'Alice',
-    greet: function() {
+    greet: function () {
         return `Hello, my name is ${this.name}`;
     }
 };
 
 document.getElementById('thisButton').addEventListener('click', () => {
     document.getElementById('thisOutput').innerText = person.greet();
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const button = document.createElement('button');
+    button.textContent = '<- go back';
+    button.addEventListener('click', function () {
+        window.location.href = '../../index.html'; // Replace with your desired URL
+    });
+    document.body.appendChild(button);
 });

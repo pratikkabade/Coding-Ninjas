@@ -81,3 +81,12 @@ document.getElementById('asyncButton').addEventListener('click', () => {
 document.getElementById('asyncButtonWrong').addEventListener('click', () => {
     runAsyncAwait('x');
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const button = document.createElement('button');
+    button.textContent = '<- go back';
+    button.addEventListener('click', function () {
+        window.location.href = '../../index.html'; // Replace with your desired URL
+    });
+    document.body.appendChild(button);
+});

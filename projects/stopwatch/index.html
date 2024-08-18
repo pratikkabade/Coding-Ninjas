@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="h-screen flex flex-col justify-center items-center cursor-default">
+    <div class="container text-center w-2/3 p-5 border-2 border-base-300 bg-base-300 shadow-xl rounded-3xl">
+        <h1 class="text-3xl">Stopwatch</h1>
+        <div id="stopwatch" class="my-10">
+            <h2 id="time-display">00:00:00</h2>
+        </div>
+        <button id="start-button" class="btn btn-success mx-2">Start</button>
+        <button id="reset-button" class="btn btn-outline btn-secondary mx-2">Reset</button>
+        <button id="stop-button" class="btn btn-error mx-2">Stop</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
