@@ -6,9 +6,11 @@ The archive of notes, project from Coding Ninjas courses.
 
 ## STAGE 1
 
-- **Nov 10, 2023** to **Nov 25, 2023**
+> **Nov 10, 2023** to **Nov 25, 2023** (`2 weeks 1 day`)
 
 ## STAGE 2
+
+> **Nov 27, 2023** to **Jun 01, 2024** (`26 weeks 5 days`)
 
 ### Bootcamp Introduction to Python
 
@@ -96,3 +98,47 @@ The archive of notes, project from Coding Ninjas courses.
     - **2**: *May 30, 2024*
     - **3**: *May 30, 2024*
     - **4**: *Jun 01, 2024* `x3`
+
+
+## STAGE 3
+
+> **Jun 03, 2024** to **Jun 01, 2024** (`26 weeks 5 days`)
+
+### Bootcamp | Frontend | Full Stack Development
+
+- **Week 1** : 
+    - `Getting started with JavaScript` *Jun 03, 2024*
+    - `Fundamentals of JS I` *Jun 03, 2024*
+    - `Fundamentals of JS II` *Jun 03, 2024*
+    - `Conditional and looping` *Jun 17, 2024*
+    - `Loops, Arrays, Function` *Jun 17, 2024*
+- **Week 3** : 
+    - `Working of JS` *Jun 17, 2024*
+    - `Functions in JS` *Jun 17, 2024*
+    - `OOP in JS` *Jun 20, 2024*
+    - `ES6 Classes in JS` *Jun 24, 2024*
+- **Week 8** : 
+    - `DOM Manipulation` *Jul 16, 2024*
+    - `Quiz Game App` *Aug 04, 2024*
+    - `MiniProject - Music Player App` *Aug 04, 2024*
+    - `Asynchronous JavaScript I` *Jul 17, 2024*
+- **Week 8** : 
+    - `Asynchronous JavaScript II` *Jul 17, 2024*
+    - `Modules in JS` *Jul 19, 2024*
+    - `MiniProject - Stock Market Analysis` *Aug 04, 2024*
+    - `Git` *Aug 04, 2024*
+    - `jQuery` *Aug 04, 2024*
+
+#### Skill Test
+
+- **Week 10** : 
+    - **1**: *Aug 18, 2024*
+    - **2**: *Aug 18, 2024*
+
+### Bootcamp | Backend with NodeJS - Basics
+
+- **Week 11** : 
+    - `Getting started with NodeJS` *Aug 19, 2024*
+    - `Modules in NodeJS` *Aug 19, 2024*
+    - `Exploring More Modules` *Aug 19, 2024*
+    - `Getting started with Express` *Aug 19, 2024*
