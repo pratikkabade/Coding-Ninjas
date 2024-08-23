@@ -1,2 +1,0 @@
-- [01-Resume](./01-Resume/README.md)
-- [02-Final-Project-Musify](./02-Final-Project-Musify/README.md)
